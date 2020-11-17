@@ -226,3 +226,24 @@ private void displayallRecord() {
     	 AddressBook();
      }
 
+private void ExitRecord() {
+    	 System.out.println("exit...");
+    	 System.exit(0);
+     }
+     
+     
+     
+	public static void main(String[] args) {
+    new TelephoneDirectory();
+	
+	
+	}
+	public ArrayList<TeleRec> getTelephoneRecords() {
+		return telephoneRecords;
+	}
+	public void setTelephoneRecords(ArrayList<TeleRec> telephoneRecords) {
+		this.telephoneRecords = telephoneRecords;
+	}
+
+
+}
