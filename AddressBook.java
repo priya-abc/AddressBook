@@ -5,6 +5,7 @@ public class AddressBook {
 private ArrayList<AddRec> addressRecords = new ArrayList<AddRec>();
 
 System.out.println("Welcome to AddressBook");
+<<<<<<< HEAD
 
 Scanner in = new Scanner(System.in);
 	public void AddressBook()
@@ -14,12 +15,26 @@ Scanner in = new Scanner(System.in);
         String firstNames[]= new String[firstnames_count];
         System.out.println("Enter the First Names: ");
         for(int i=0;i<firstnames_count;i++) {
+=======
+Scanner in = new Scanner(System.in);
+	public void AddressBook()
+	{
+	System.out.println("Enter the number of first names: ");
+        int firstnames_count= in.nextInt();
+        String firstNames[]= new String[firstnames_count];
+        System.out.println("Enter the First Names: ");
+            for(int i=0;i<firstnames_count;i++) {
+>>>>>>> UC1-MenuOptions
             firstNames[i]=in.next();
         }
         System.out.println("Enter the number of last names: ");
         int lastnames_count=in.nextInt();
 
+<<<<<<< HEAD
         if(firstnames_count!=lastnames_count) {
+=======
+           if(firstnames_count!=lastnames_count) {
+>>>>>>> UC1-MenuOptions
             System.out.println("Mismatch! Number of first names and last names should be same ");
             System.exit(0);
         }
