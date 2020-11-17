@@ -142,3 +142,29 @@ private void addRecord() {
            }
            return lhm;
        }
+private void searchRecord() {
+    	 Scanner in = new Scanner(System.in);
+    	 System.out.println("Enter the number of arrayvalues: ");
+         int arrayvalues_count= in.nextInt();
+         int arrayValues[]= new int[arrayvalues_count];
+         System.out.println("Enter the arrayvalues: ");
+         for(int i=0;i<arrayvalues_count;i++) {
+        	 arrayValues[i]=in.nextInt();
+         }
+    	 
+    	 
+    	 int zipcode=638301;
+    	 int temp=0;
+    	 for(int i=0;i<arrayValues.length;i++)
+    	{
+    		 if( arrayValues[i]==zipcode)
+    		 {
+    			 System.out.println("item is present at "+i+" th index pos");
+    		     temp=temp+1;
+    		 }
+    	}
+    	if(temp==0)
+    	{
+    		System.out.println("item not found");
+    	}
+     }
