@@ -168,3 +168,35 @@ private void searchRecord() {
     		System.out.println("item not found");
     	}
      }
+private void SortRecord() {
+    	 
+    	 Scanner in = new Scanner(System.in);
+    	 System.out.println("Enter the number of arrayvalues: ");
+         int arrayvalues_count= in.nextInt();
+         int arrayValues[]= new int[arrayvalues_count];
+         System.out.println("Enter the arrayvalues: ");
+         for(int i=0;i<arrayvalues_count;i++) {
+        	 arrayValues[i]=in.nextInt();
+         }
+    	 int min,temp=0;
+    	 for(int i=0;i<arrayValues.length;i++)
+    	{
+    		 min=i;
+    		 for(int j=i+1;j<arrayValues.length;j++)
+    		 {
+    			 if(arrayValues[j] < arrayValues[min])
+    			 {
+    				 min=j;
+    			 }
+    		 }
+
+    	temp=arrayValues[i];
+    	arrayValues[i]=arrayValues[min];
+    	arrayValues[min]=temp;
+    	}	
+    	for(int i=0;i<arrayValues.length;i++)
+    	{
+    		System.out.println(arrayValues[i]+ " "); 
+    	}
+    	 
+     }
