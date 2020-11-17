@@ -69,12 +69,14 @@ Enter the number of arrayvalues:
 3
 
 
-Enter the arrayvalues: 
+Enter the zipcodevalues: 
 65678
+
 638301
+
 565869
 
-
+searching....
 
 item is present at 1 th index pos
 
@@ -90,18 +92,26 @@ Enter the number of arrayvalues:
 4
 
 
-Enter the arrayvalues: 
+Enter the zipcodevalues: 
+
 676878
+
 764767
+
 486868
+
 586986
 
 
 
-Sorted arrayvalues :
+Sorted zipcodevalues :
+ 
 486868 
+
 586986 
+
 676878 
+
 764767 
 
 1. Add Record
@@ -117,15 +127,24 @@ Enter the number of zipcodevalues:
 4
 Enter the arrayvalues: 
 8945646
+
 8989699
+
 8789865
+
 9898689
 
 
 Added Newzipcode:693933
+
+
+
 8945646 
+
 8989699 
+
 693933 
+
 8789865 
 
 
