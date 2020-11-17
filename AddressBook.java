@@ -222,3 +222,6 @@ private void editRecord() {
     	}
     	 
      }
+private void displayallRecord() {
+    	 AddressBook();
+     }
