@@ -54,6 +54,7 @@ Enter the arrayvalues:
 65678
 638301
 565869
+
 item is present at 1 th index pos
 
 1. Add Record
@@ -66,6 +67,8 @@ item is present at 1 th index pos
 3
 Enter the number of arrayvalues: 
 4
+
+
 Enter the arrayvalues: 
 676878
 764767
@@ -86,8 +89,10 @@ Sorted arrayvalues :
 6. Exit
 
 5
+
 Enter the number of first names: 
 6
+
 Enter the First Names: 
 sha
 ruby
@@ -95,6 +100,7 @@ ratha
 keeri
 karna
 pri
+
 Enter the number of last names: 
 
 6
@@ -106,8 +112,12 @@ keer
 shetty
 suki
 
+
+
+
 Enter the number of phonevalues: 
 6
+
 Enter the phonevalues: 
 488888985
 887956456
@@ -115,6 +125,9 @@ Enter the phonevalues:
 898956566
 689895656
 898565656
+
+
+
 
 Enter the number of zipcodevalues: 
 6
