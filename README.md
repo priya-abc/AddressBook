@@ -9,23 +9,40 @@
 1
 Enter the number of first names: 
 6
+
 Enter the First Names: 
+
+
 sha
+
 ruby
+
 ratha
+
 keeri
+
 karna
+
 pri
 
 Enter the number of last names: 
+
 6
+
  Enter the last names in order - matching the first names
+
 shetty
+
 bhuwan
+
 priya
+
 keer
+
 shetty
+
 suki
+
 The Last Names in alphabetial order: 
 
 ruby  bhuwan
@@ -50,10 +67,14 @@ pri  suki
 2
 Enter the number of arrayvalues: 
 3
+
+
 Enter the arrayvalues: 
 65678
 638301
 565869
+
+
 
 item is present at 1 th index pos
 
@@ -75,6 +96,8 @@ Enter the arrayvalues:
 486868
 586986
 
+
+
 Sorted arrayvalues :
 486868 
 586986 
@@ -88,8 +111,35 @@ Sorted arrayvalues :
 5. Display all Record
 6. Exit
 
-5
 
+4
+Enter the number of zipcodevalues: 
+4
+Enter the arrayvalues: 
+8945646
+8989699
+8789865
+9898689
+
+
+Added Newzipcode:693933
+8945646 
+8989699 
+693933 
+8789865 
+
+
+
+1. Add Record
+2. Search Record
+3. Sort Record
+4. Edit Record
+5. Display all Record
+6. Exit
+
+
+
+5
 Enter the number of first names: 
 6
 
