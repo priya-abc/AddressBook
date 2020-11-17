@@ -200,3 +200,25 @@ private void SortRecord() {
     	}
     	 
      }
+private void editRecord() {
+    	 Scanner in = new Scanner(System.in);
+    	 System.out.println("Enter the number of zipcodevalues: ");
+         int arrvalues_count= in.nextInt();
+         int arrValues[]= new int[arrvalues_count];
+         System.out.println("Enter the arrayvalues: ");
+         for(int i=0;i<arrvalues_count;i++) {
+        	 arrValues[i]=in.nextInt();
+         }
+    	 int pos=3;
+    	 int newzipcode=693933;
+    	 for(int i=arrValues.length-1;i>pos-1;i--)
+    	{
+    		 arrValues[i]=arrValues[i-1];
+    	}
+    	 arrValues[pos-1]=newzipcode;
+    	for (int i=0; i<arrValues.length;i++)
+    	{
+    		System.out.println(arrValues[i]+ " "); 
+    	}
+    	 
+     }
